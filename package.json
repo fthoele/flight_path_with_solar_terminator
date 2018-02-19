@@ -1,0 +1,19 @@
+{
+  "name": "flight_path_with_solar_terminator",
+  "version": "1.0.0",
+  "description": "On a flight from Tokyo to Zurich, I was wondering why I could see a sunset (and sunrise, but I was probably asleep at that point), even though the departure time was 11am and arrival in Zurich was 3:30 pm, both during daylight.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fthoele/flight_path_with_solar_terminator.git"
+  },
+  "author": "Florian Thoele",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fthoele/flight_path_with_solar_terminator/issues"
+  },
+  "homepage": "https://github.com/fthoele/flight_path_with_solar_terminator#readme"
+}
