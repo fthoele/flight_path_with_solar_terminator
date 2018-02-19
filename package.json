@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fthoele/flight_path_with_solar_terminator/issues"
   },
-  "homepage": "https://github.com/fthoele/flight_path_with_solar_terminator#readme"
+  "homepage": "https://github.com/fthoele/flight_path_with_solar_terminator#readme",
+  "dependencies": {
+    "save-svg-as-png": "^1.2.0"
+  }
 }
