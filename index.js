@@ -1,8 +1,6 @@
 var saveSvgAsPng = require("save-svg-as-png")
-//var d3 = require("d3");
 var d3 = Object.assign({}, require("d3"), require("d3-geo"), require("d3-geo-projection"));
 var topojson = require("topojson")
-
 
 
 var pic_number = 0;
@@ -83,7 +81,7 @@ d3.json("/data/world-50m.json", function(error, world) {
 
             var l = flightpath.node().getTotalLength();
             var points_along_path = [0];
-            flightpoints = svg.selectAll("g.flightpoints")
+            var flightpoints = svg.selectAll("g.flightpoints")
                 .data(points_along_path)
                 .enter()
                 .append("g")
@@ -138,7 +136,7 @@ function update_flightpoint() {
 }
 
 function draw_solar_terminator(date_to_draw) {
-    solar = d3.select(".solar-terminator");
+    var solar = d3.select(".solar-terminator");
     solar.datum(circle.center(antipode(solarPosition(date_to_draw))))
         .attr("d", path);
 };
