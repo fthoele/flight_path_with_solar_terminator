@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/fthoele/flight_path_with_solar_terminator#readme",
   "dependencies": {
-    "save-svg-as-png": "^1.2.0"
+    "d3": "^4.13.0",
+    "d3-geo": "^1.9.1",
+    "d3-geo-projection": "^2.3.2",
+    "save-svg-as-png": "^1.2.0",
+    "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.11.0"
   }
 }
