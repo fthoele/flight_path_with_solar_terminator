@@ -4,7 +4,7 @@
   "description": "On a flight from Tokyo to Zurich, I was wondering why I could see a sunset (and sunrise, but I was probably asleep at that point), even though the departure time was 11am and arrival in Zurich was 3:30 pm, both during daylight.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
