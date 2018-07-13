@@ -1,6 +1,6 @@
 # Flight path with solar terminator
 
-![Animation of flight path](flight_path_with_solar_terminator/movie.gif)
+![Animation of flight path](https://github.com/fthoele/flight_path_with_solar_terminator/blob/master/movie.gif)
 
 On a flight from Tokyo to Zurich, I was wondering why I could see a sunset (and sunrise, but I was probably asleep at that point), even though the departure time was 11am and arrival in Zurich was 3:30 pm, both during daylight. 
 
